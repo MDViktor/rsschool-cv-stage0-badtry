@@ -38,12 +38,22 @@
 ## Code example:
 
 ```
-function sum(a, b) {
-  return a + b;
-}
-
-let result = sum(1, 2);
-alert( result );
+function humanReadable (seconds) {
+  console.log(seconds);
+   if (seconds === 0){
+     return '00:00:00'
+   } else if(seconds/60<1) {
+      return `00:00:${seconds}`
+   } else if(seconds/60<60){
+     let minutes = Math.floor(seconds/60);
+     seconds = seconds - minutes*60;
+     return `00:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
+   } else if (seconds/60>=60){
+     let hours = Math.floor(seconds/3600)
+     let minutes = Math.floor(seconds/60) - hours*60;
+     seconds = seconds - minutes*60 - hours*3600;
+     return `${String(hours).padStart(2,0)}:${String(minutes).padStart(2,0)}:${String(seconds).padStart(2,0)}`
+   }
 ```
 ---
 ## Experience:
