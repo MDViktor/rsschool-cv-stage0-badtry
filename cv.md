@@ -60,3 +60,7 @@ alert( result );
     - _Java Script/Front-end development (in process..)_
 
 ---
+## English:
+- B1
+---
+---
