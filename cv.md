@@ -46,3 +46,10 @@ let result = sum(1, 2);
 alert( result );
 ```
 ---
+## Experience:
+
+ 1. Git & Markdown : [CV](https://mdviktor.github.io/rsschool-cv/cv)
+ 1. HTML & CSS : [Travel](https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/travel/)
+ 1. JavaScript : [Momentum](https://rolling-scopes-school.github.io/mdviktor-JSFEPRESCHOOL2022Q2/momentum/), [Eldritch](https://mdviktor.github.io/eldritch-codejam/data/)
+
+---
